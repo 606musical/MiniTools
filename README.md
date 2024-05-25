@@ -1,6 +1,6 @@
 基本的には準備中  
 Minitools  
-· Clock  
+・Clock  
 ・Open Windows folders and control panel  
 ・Simple color picker  
 ・Switch the window active with the mouse  
