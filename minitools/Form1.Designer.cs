@@ -83,15 +83,15 @@
             contextMenuStrip1.Name = "contextMenuStrip1";
             contextMenuStrip1.RenderMode = ToolStripRenderMode.System;
             contextMenuStrip1.ShowImageMargin = false;
-            contextMenuStrip1.Size = new Size(201, 246);
-            contextMenuStrip1.Text = "選択";
+            contextMenuStrip1.Size = new Size(195, 246);
+            contextMenuStrip1.Text = "select";
             // 
             // ts1
             // 
             ts1.Name = "ts1";
             ts1.ShortcutKeys = Keys.Alt | Keys.C;
-            ts1.Size = new Size(200, 22);
-            ts1.Text = "コントロールパネル (win)";
+            ts1.Size = new Size(194, 22);
+            ts1.Text = "control Panel (win)";
             ts1.Click += tsmic6;
             ts1.MouseEnter += ToolStripMenuItem7_MouseEnter_1;
             ts1.MouseLeave += ToolStripMenuItem7_MouseLeave;
@@ -100,8 +100,8 @@
             // 
             ts2.Name = "ts2";
             ts2.ShortcutKeys = Keys.Alt | Keys.E;
-            ts2.Size = new Size(200, 22);
-            ts2.Text = "エクスプローラ (フォルダ)";
+            ts2.Size = new Size(194, 22);
+            ts2.Text = "Explorer (Folder)";
             ts2.Click += tsmic7;
             ts2.MouseEnter += ToolStripMenuItem7_MouseEnter_1;
             ts2.MouseLeave += ToolStripMenuItem7_MouseLeave;
@@ -109,8 +109,8 @@
             // ts3
             // 
             ts3.Name = "ts3";
-            ts3.Size = new Size(200, 22);
-            ts3.Text = "カラーピッカー";
+            ts3.Size = new Size(194, 22);
+            ts3.Text = "Color picker";
             ts3.Click += Label1_DoubleClick;
             ts3.MouseEnter += ToolStripMenuItem7_MouseEnter_1;
             ts3.MouseLeave += ToolStripMenuItem7_MouseLeave;
@@ -120,16 +120,16 @@
             ts4.DropDownItems.AddRange(new ToolStripItem[] { ts41, ts42 });
             ts4.Name = "ts4";
             ts4.ShortcutKeys = Keys.Alt | Keys.O;
-            ts4.Size = new Size(200, 22);
-            ts4.Text = "画面消灯";
+            ts4.Size = new Size(194, 22);
+            ts4.Text = "Display suspend";
             ts4.MouseEnter += ToolStripMenuItem7_MouseEnter_1;
             ts4.MouseLeave += ToolStripMenuItem7_MouseLeave;
             // 
             // ts41
             // 
             ts41.Name = "ts41";
-            ts41.Size = new Size(92, 22);
-            ts41.Text = "1分";
+            ts41.Size = new Size(100, 22);
+            ts41.Text = "1min";
             ts41.Click += ts70_Click;
             ts41.MouseEnter += ToolStripMenuItem7_MouseEnter_1;
             ts41.MouseLeave += ToolStripMenuItem7_MouseLeave;
@@ -137,8 +137,8 @@
             // ts42
             // 
             ts42.Name = "ts42";
-            ts42.Size = new Size(92, 22);
-            ts42.Text = "3分";
+            ts42.Size = new Size(100, 22);
+            ts42.Text = "3min";
             ts42.Click += ts71_Click;
             ts42.MouseEnter += ToolStripMenuItem7_MouseEnter_1;
             ts42.MouseLeave += ToolStripMenuItem7_MouseLeave;
@@ -147,8 +147,8 @@
             // 
             ts5.DropDownItems.AddRange(new ToolStripItem[] { ts51, ts52, ts53, ts54 });
             ts5.Name = "ts5";
-            ts5.Size = new Size(200, 22);
-            ts5.Text = "マウスでウィンドウを最前面";
+            ts5.Size = new Size(194, 22);
+            ts5.Text = "active Window by Mouse";
             // 
             // ts51
             // 
@@ -161,35 +161,35 @@
             // ts52
             // 
             ts52.Name = "ts52";
-            ts52.Size = new Size(181, 22);
-            ts52.Text = "応答速度 500 - 0";
+            ts52.Size = new Size(183, 22);
+            ts52.Text = "ResponseSPD 500 - 0";
             // 
             // ts53
             // 
             ts53.Name = "ts53";
-            ts53.Size = new Size(181, 22);
+            ts53.Size = new Size(183, 22);
             ts53.Text = "ON";
             ts53.Click += ts52_Click;
             // 
             // ts54
             // 
             ts54.Name = "ts54";
-            ts54.Size = new Size(181, 22);
+            ts54.Size = new Size(183, 22);
             ts54.Text = "OFF";
             ts54.Click += ts53_Click;
             // 
             // ts6
             // 
             ts6.Name = "ts6";
-            ts6.Size = new Size(200, 22);
-            ts6.Text = "位置固定";
+            ts6.Size = new Size(194, 22);
+            ts6.Text = "Windw move ON";
             ts6.Click += ts17A_Click;
             // 
             // ts7
             // 
             ts7.Name = "ts7";
-            ts7.Size = new Size(200, 22);
-            ts7.Text = "最小化";
+            ts7.Size = new Size(194, 22);
+            ts7.Text = "Minimaize";
             ts7.Click += ToolStripMenuItem11_Click_1;
             ts7.MouseEnter += ToolStripMenuItem7_MouseEnter_1;
             ts7.MouseLeave += ToolStripMenuItem7_MouseLeave;
@@ -198,8 +198,8 @@
             // 
             ts8.Name = "ts8";
             ts8.ShortcutKeys = Keys.Control | Keys.Alt | Keys.Space;
-            ts8.Size = new Size(200, 22);
-            ts8.Text = "終了";
+            ts8.Size = new Size(194, 22);
+            ts8.Text = "Close";
             ts8.Click += tsmicC;
             ts8.MouseEnter += ToolStripMenuItem7_MouseEnter_1;
             ts8.MouseLeave += ToolStripMenuItem7_MouseLeave;
@@ -209,8 +209,8 @@
             ts9.Name = "ts9";
             ts9.ShortcutKeyDisplayString = "";
             ts9.ShortcutKeys = Keys.Alt | Keys.Space;
-            ts9.Size = new Size(200, 22);
-            ts9.Text = "このメニューを閉じる";
+            ts9.Size = new Size(194, 22);
+            ts9.Text = "Close this Menu";
             ts9.Click += ToolStripMenuItem5_Click;
             ts9.MouseEnter += ToolStripMenuItem7_MouseEnter_1;
             ts9.MouseLeave += ToolStripMenuItem7_MouseLeave;
@@ -219,77 +219,77 @@
             // 
             ts0.DropDownItems.AddRange(new ToolStripItem[] { ts01, ts02, ts03, ts04, ts05, ts06 });
             ts0.Name = "ts0";
-            ts0.Size = new Size(200, 22);
-            ts0.Text = "表示関係";
+            ts0.Size = new Size(194, 22);
+            ts0.Text = "Display Related";
             // 
             // ts01
             // 
             ts01.Name = "ts01";
-            ts01.Size = new Size(180, 22);
-            ts01.Text = "ダークモード";
+            ts01.Size = new Size(192, 22);
+            ts01.Text = "Dark mode";
             ts01.Click += ts18_Click;
             // 
             // ts02
             // 
             ts02.Name = "ts02";
-            ts02.Size = new Size(180, 22);
-            ts02.Text = "ライトモード";
+            ts02.Size = new Size(192, 22);
+            ts02.Text = "Light mode";
             ts02.Click += ts02_Click;
             // 
             // ts03
             // 
             ts03.DropDownItems.AddRange(new ToolStripItem[] { ts031, ts032, ts033 });
             ts03.Name = "ts03";
-            ts03.Size = new Size(180, 22);
-            ts03.Text = "文字";
+            ts03.Size = new Size(192, 22);
+            ts03.Text = "Font , Color";
             // 
             // ts031
             // 
             ts031.Name = "ts031";
-            ts031.Size = new Size(180, 22);
-            ts031.Text = "色選択";
+            ts031.Size = new Size(142, 22);
+            ts031.Text = "Color select";
             ts031.Click += ctsmic;
             // 
             // ts032
             // 
             ts032.Name = "ts032";
-            ts032.Size = new Size(180, 22);
-            ts032.Text = "フォント";
+            ts032.Size = new Size(142, 22);
+            ts032.Text = "Font select";
             ts032.Click += ts932_Click;
             // 
             // ts033
             // 
             ts033.Name = "ts033";
-            ts033.Size = new Size(180, 22);
-            ts033.Text = "初期設定";
+            ts033.Size = new Size(142, 22);
+            ts033.Text = "initial setting";
             ts033.Click += ts933_Click;
             // 
             // ts04
             // 
             ts04.DropDownItems.AddRange(new ToolStripItem[] { ts041, ts042, ts043 });
             ts04.Name = "ts04";
-            ts04.Size = new Size(180, 22);
-            ts04.Text = "本体表示切替";
+            ts04.Size = new Size(192, 22);
+            ts04.Text = "Skin select";
             // 
             // ts041
             // 
             ts041.Name = "ts041";
-            ts041.Size = new Size(188, 22);
-            ts041.Text = "オリジナルスキン(未定)";
+            ts041.Size = new Size(191, 22);
+            ts041.Text = "- Window frame -";
             ts041.Click += ts901_Click;
             // 
             // ts042
             // 
             ts042.Name = "ts042";
-            ts042.Size = new Size(188, 22);
-            ts042.Text = "本体真四角(win10,11)";
+            ts042.Size = new Size(191, 22);
+            ts042.Text = "square (win10 , win11)";
             ts042.Click += ts912_Click;
             // 
             // ts043
             // 
             ts043.Name = "ts043";
-            ts043.Size = new Size(188, 22);
-            ts043.Text = "本体角丸 (win11) ";
+            ts043.Size = new Size(191, 22);
+            ts043.Text = "circle (win11only)";
             ts043.Click += ts922_Click;
             // 
             // ts05
@@ -297,15 +297,15 @@
             ts05.BackColor = SystemColors.Control;
             ts05.ForeColor = SystemColors.ControlText;
             ts05.Name = "ts05";
-            ts05.Size = new Size(180, 22);
-            ts05.Text = "透過表示";
+            ts05.Size = new Size(192, 22);
+            ts05.Text = "Transparent display on";
             ts05.Click += ts05_Click;
             // 
             // ts06
             // 
             ts06.Name = "ts06";
-            ts06.Size = new Size(180, 22);
-            ts06.Text = "通常表示(透過終了)";
+            ts06.Size = new Size(192, 22);
+            ts06.Text = "Transparent display off";
             ts06.Click += ts06_Click;
             // 
             // timer1
@@ -381,10 +381,13 @@
             label10.AutoSize = true;
             label10.FlatStyle = FlatStyle.Popup;
             label10.Font = new Font("MS UI Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point, 128);
-            label10.Location = new Point(57, 8);
+            label10.Location = new Point(58, 8);
+            label10.MaximumSize = new Size(30, 0);
+            label10.MinimumSize = new Size(25, 0);
             label10.Name = "label10";
-            label10.Size = new Size(0, 12);
+            label10.Size = new Size(25, 12);
             label10.TabIndex = 29;
+            label10.Text = "sun";
             label10.MouseDown += Form1_MouseDown;
             label10.MouseMove += Form1_MouseMove;
             // 

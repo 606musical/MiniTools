@@ -105,7 +105,7 @@ namespace Minitools
                 {
                     ts53.Enabled = false;
                     ts54.Enabled = true;
-                    ts53.Text = "ONになっています";
+                    ts53.Text = "Now turned ON";
                     ts54.Text = "OFF";
                 }
                 if (tkg == "9F" || tkg == "9E" || tkg == "98" || tkg == "90")
@@ -113,7 +113,7 @@ namespace Minitools
                     ts54.Enabled = false;
                     ts53.Enabled = true;
                     ts53.Text = "ON";
-                    ts54.Text = "OFFになっています";
+                    ts54.Text = "Now turned OFF";
                 }
                 rKe2.Close();
             }
@@ -293,11 +293,11 @@ namespace Minitools
             fmm ^= 1;
             if (fmm == 0)
             {
-                ts6.Text = "位置固定を開始";
+                ts6.Text = "Position8 held OFF";
             }
             else
             {
-                ts6.Text = "位置固定中です";
+                ts6.Text = "Position8 held ON";
             }
         }
         private void ts62_Click(object sender, EventArgs e)
@@ -401,7 +401,7 @@ namespace Minitools
             SystemParametersInfo(SPI_SETACTIVEWNDTRKZORDER, 0, (IntPtr)1, SPIF_SENDCHANGE | SPIF_UPDATEINIFILE);
             ts53.Enabled = false;
             ts54.Enabled = true;
-            ts53.Text = "ONの状態です";
+            ts53.Text = "Now turned ON";
             ts54.Text = "OFF";
         }
         private void ts53_Click(object sender, EventArgs e)
@@ -411,18 +411,18 @@ namespace Minitools
             ts54.Enabled = false;
             ts53.Enabled = true;
             ts53.Text = "ON";
-            ts54.Text = "OFFの状態です";
+            ts54.Text = "Now turned OFF";
         }
         private void ts17A_Click(object sender, EventArgs e)
         {
             fmm ^= 1;
             if (fmm == 0)
             {
-                ts6.Text = "位置固定を開始";
+                ts6.Text = "Now Window move ON";
             }
             else
             {
-                ts6.Text = "位置固定中です";
+                ts6.Text = "Now Window move OFF";
             }
         }
         private void ts901_Click(object sender, EventArgs e)
@@ -511,7 +511,6 @@ namespace Minitools
         }
         private void ts15_Click(object sender, EventArgs e)
         {
-            clearstop();
             d2l = 0;
             SLD();
             Resetvisual();
@@ -549,7 +548,7 @@ namespace Minitools
             }
             label9.Location = new Point(6, 5);
             label9.Font = new Font("MS UI Gothic", 12, FontStyle.Bold);
-            label10.Location = new Point(61, 8);
+            //label10.Location = new Point(61, 8);
             label10.Font = new Font("MS UI Gothic", 9);
             label11.Location = new Point(82, 5);
             label11.Font = new Font("MS UI Gothic", 12, FontStyle.Bold);
@@ -568,14 +567,6 @@ namespace Minitools
             label11.Font = fd.Font;
             label11.ForeColor = fd.Color;
             label17.ForeColor = fd.Color;
-        }
-        private void clearstop()
-        {
-            this.label9.Font = new Font("MS UI Gothic", 12, FontStyle.Bold);
-            label10.Location = new Point(115, 8);
-            label10.Font = new Font("MS UI Gothic", 9);
-            label11.Location = new Point(146, 3);
-            label11.Font = new Font("MS UI Gothic", 12, FontStyle.Bold);
         }
         private void SLD()
         {
@@ -774,7 +765,9 @@ namespace Minitools
                 this.Text = "test";
             }
             label9.Text = now.ToString("MM/dd");
-            label10.Text = now.ToString("ddd");
+            var culture1 = System.Globalization.CultureInfo.GetCultureInfo("en-US");
+            //var culture2 = System.Globalization.CultureInfo.GetCultureInfo("ja-JP");
+            label10.Text = now.ToString("ddd",culture1);
             label11.Text = now.ToString("HH:mm:ss");
 
         }
@@ -810,7 +803,6 @@ namespace Minitools
             subR.Monitor.PowerOff();
             contextMenuStrip1.Show();
         }
-
     }
 }
 
