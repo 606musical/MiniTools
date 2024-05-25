@@ -1,5 +1,4 @@
-基本的には準備中  
-Minitools  
+minitools  
 ・Clock  
 ・Open Windows folders and control panel  
 ・Simple color picker  
